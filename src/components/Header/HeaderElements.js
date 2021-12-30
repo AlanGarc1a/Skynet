@@ -36,7 +36,12 @@ export const HeaderContent = styled.div`
     top: 30%;
     left: 25%;
     color: #DBE2EF;
-    width: 40%;
+
+    @media screen and (max-width: 768px) {
+        left: 0%;
+        text-align: center;
+        margin: 3rem;
+    }
 `;
 
 export const HeaderTitle = styled.h1`
@@ -54,4 +59,14 @@ export const HeaderSubContent = styled.p`
     font-style: italic;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
+    width: 50%;
+
+    @media screen and (max-width: 480px) {
+        padding-right: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+    }
 `;
