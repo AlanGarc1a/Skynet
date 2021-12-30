@@ -10,12 +10,33 @@ export const NavbarWrapper = styled.nav`
     top: 0;
     z-index: 99;
     width: 100%;
+
+    @media screen and (max-width: 769px) {
+        justify-content: space-between;
+    }
+
 `;
 
 export const NavLogo = styled.span`
     align-self: center;
     font-size: 3rem;
     color: #112D4E;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 3rem;
+    }
+`;
+
+export const MobileIcon = styled.div`
+    display: none;
+    align-self: center;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        margin-right: 3rem;
+        font-size: 2.5rem;
+    }
 `;
 
 export const NavList = styled.ul`
@@ -23,6 +44,10 @@ export const NavList = styled.ul`
     list-style: none;
     margin-top: .1rem;
     align-self: center;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const NavItem = styled.li`

@@ -1,10 +1,14 @@
 import React from 'react'
-import { NavbarWrapper, NavList, NavItem, NavLogo } from './NavbarElements';
+import { NavbarWrapper, NavList, NavItem, NavLogo, MobileIcon } from './NavbarElements';
+import {FaBars} from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <NavbarWrapper>
                 <NavLogo>Skynet</NavLogo>
+                <MobileIcon onClick={toggle}>
+                    <FaBars />
+                </MobileIcon>
                 <NavList>
                     <NavItem>Home</NavItem>
                     <NavItem>About</NavItem>
