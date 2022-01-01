@@ -4,7 +4,7 @@ import { AboutWrapper, AboutTitle, AboutSubTitle, AboutContent, Block } from './
 
 const index = () => {
     return (
-        <AboutWrapper>
+        <AboutWrapper id="about">
             <Container>
                 <AboutTitle>Advanced Technology</AboutTitle>
                 <AboutSubTitle>Skynet Foundation</AboutSubTitle>
