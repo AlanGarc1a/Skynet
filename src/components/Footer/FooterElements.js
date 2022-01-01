@@ -17,10 +17,16 @@ export const FooterWrap = styled.div`
 export const FooterLinksContainer = styled.div`
     display: flex;
     justify-content: center;
+
 `;
 
 export const FooterLinksWrapper = styled.div`
     display: flex;
+
+    @media screen and (max-width: 480px) {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 `;
 
 export const FooterLinkItems = styled.div`
@@ -61,6 +67,10 @@ export const SocialMediaWrap = styled.div`
     align-items: center;
     max-width: 110rem;
     margin: 4rem auto 0 auto;
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+    }
 `;
 
 export const SocialLogo = styled.a`
