@@ -6,6 +6,7 @@ import Services from '../components/Services';
 import Footer from '../components/Footer';
 import SideBar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
 
 const Home = () => {
 
@@ -23,6 +24,7 @@ const Home = () => {
           <About />
           <Section  /> 
           <Services />
+          <Contact />
           <Footer /> 
         </>
     )
