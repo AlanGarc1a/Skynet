@@ -6,12 +6,12 @@ export const NavbarWrapper = styled.nav`
     height: 6rem;
     border-bottom: none;
     background: #F9F7F7;
-    position: fixed;
+    position: sticky;
     top: 0;
-    z-index: 99;
+    z-index: 999;
     width: 100%;
 
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 768px) {
         justify-content: space-between;
     }
 
@@ -21,6 +21,7 @@ export const NavLogo = styled.span`
     align-self: center;
     font-size: 3rem;
     color: #112D4E;
+    cursor:pointer;
 
     @media screen and (max-width: 768px) {
         margin-left: 3rem;
@@ -53,4 +54,5 @@ export const NavList = styled.ul`
 export const NavItem = styled.li`
     margin-right: 1.5rem;
     font-size: 2rem;
+    cursor: pointer;
 `;
