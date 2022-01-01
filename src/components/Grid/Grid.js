@@ -13,6 +13,10 @@ export const Row = styled.div`
     display: flex;
     justify-content: space-evenly;
     gap: 10rem;
+
+    @media screen and (max-width: 768px) {
+        flex-wrap: ${({wrap}) => wrap ? "wrap-reverse" : "wrap"};
+    }
 `;
 
 export const Col = styled.div`
