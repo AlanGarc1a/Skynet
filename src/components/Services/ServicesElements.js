@@ -21,23 +21,22 @@ export const ServiceOverlay = styled.div`
     mix-blend-mode: overlay;
 `;
 
+export const ServiceContent = styled.div`
+    text-align: center ;
+    padding-top: 11rem;
+`;
+
 export const ServicesTitle = styled.h3`
     font-size: 3.2rem;
     color: #F9F7F7;
 `;
 
 export const ServiceAbout = styled.div`
-   position: absolute;
-   transform: translate(0, 80%);
+   margin: 0 auto;
 `;
 
 export const ServiceDescription = styled.p`
     font-size: 1.8rem;
     margin: 3rem auto 3rem auto;
     color: #F9F7F7;
-`;
-
-export const ServiceContent = styled.div`
-    position: relative;
-    text-align: center ;
 `;
