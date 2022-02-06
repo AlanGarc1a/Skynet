@@ -9,7 +9,7 @@ export const Contact = styled.section`
 export const ContactForm = styled.form`
     background: #F9F7F7;
     border-radius: .6rem;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 `;
 
