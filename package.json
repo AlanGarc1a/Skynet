@@ -1,4 +1,5 @@
 {
+  "homepage": "http://alangarc1a.github.io/Skynet",
   "name": "skynet",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "http://alangarc1a.github.io/Skynet"
+  }
 }
